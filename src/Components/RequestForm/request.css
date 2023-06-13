@@ -1,0 +1,156 @@
+.btnformrequest {
+  font-family: Metropolis;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+}
+body
+  > div.MuiDialog-root.formrequest.MuiModal-root.css-zw3mfo-MuiModal-root-MuiDialog-root
+  > div.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container
+  > div {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  box-sizing: inherit;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+    0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  margin: 32px;
+  position: relative;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100% - 64px);
+  max-width: 900px;
+  height: 370px;
+}
+
+body
+  > div.MuiDialog-root.formrequest.MuiModal-root.css-zw3mfo-MuiModal-root-MuiDialog-root
+  > div.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container
+  > div
+  > div.MuiDialogContent-root.css-ypiqx9-MuiDialogContent-root
+  > div {
+  width: 49%;
+}
+
+.DialogTitle {
+  max-height: 54px;
+  text-align: center;
+  background-color: #eaeaea;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  justify-content: center;
+  margin: 0px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.btnform1 {
+  box-shadow: none;
+
+  background-color: transparent;
+  background-image: url("./Vector\ \(14\).png");
+  height: 77px;
+  width: 133px;
+  background-size: cover;
+  display: flex;
+  color: white;
+}
+.btnform2 {
+  box-shadow: none;
+
+  background-color: transparent;
+  background-image: url("./Vector\ \(20\).png");
+  height: 77px;
+  width: 133px;
+  background-size: cover;
+  display: flex;
+  outline: none;
+}
+
+body
+  > div.MuiDialog-root.formrequest.MuiModal-root.css-zw3mfo-MuiModal-root-MuiDialog-root
+  > div.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container
+  > div
+  > div.MuiDialogActions-root.MuiDialogActions-spacing.DialogActions.css-hlj6pa-MuiDialogActions-root {
+  display: flex;
+  justify-content: space-around;
+}
+
+body
+  > div.MuiDialog-root.formrequest.MuiModal-root.css-zw3mfo-MuiModal-root-MuiDialog-root
+  > div.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container
+  > div
+  > div.MuiDialogActions-root.MuiDialogActions-spacing.DialogActions.css-hlj6pa-MuiDialogActions-root
+  > button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.btnform1.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: white;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+body
+  > div.MuiDialog-root.formrequest.MuiModal-root.css-zw3mfo-MuiModal-root-MuiDialog-root
+  > div.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container
+  > div
+  > div.MuiDialogActions-root.MuiDialogActions-spacing.DialogActions.css-hlj6pa-MuiDialogActions-root
+  > button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.btnform2.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: white;
+}
+
+body
+  > div.MuiDialog-root.formrequest.MuiModal-root.css-zw3mfo-MuiModal-root-MuiDialog-root
+  > div.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container
+  > div
+  > div.MuiDialogContent-root.css-ypiqx9-MuiDialogContent-root
+  > div {
+  background-color: #eaeaea;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  body
+    > div.MuiDialog-root.formrequest.MuiModal-root.css-zw3mfo-MuiModal-root-MuiDialog-root
+    > div.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container
+    > div {
+    height: 700px;
+  }
+
+  body
+    > div.MuiDialog-root.formrequest.MuiModal-root.css-zw3mfo-MuiModal-root-MuiDialog-root
+    > div.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container
+    > div
+    > div.MuiDialogContent-root.css-ypiqx9-MuiDialogContent-root {
+    margin-top: 100px;
+  }
+  body
+    > div.MuiDialog-root.formrequest.MuiModal-root.css-zw3mfo-MuiModal-root-MuiDialog-root
+    > div.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container
+    > div
+    > div.MuiDialogContent-root.css-ypiqx9-MuiDialogContent-root
+    > div {
+    width: 98%;
+  }
+}
+
+@media (min-width: 768px) {
+  .formrequest input[type="email"],
+  .formrequest input[type="text"] {
+    width: 100%;
+    font-size: 24px;
+    height: 27px;
+    padding-left: 25px;
+    background: rgba(217, 217, 217, 0.55);
+    border-radius: 8px;
+  }
+}

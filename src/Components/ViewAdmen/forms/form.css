@@ -1,0 +1,101 @@
+.edit-user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0px 5px 27px 1px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  margin: 30px auto;
+  
+}
+.edit-user-form div {
+margin-bottom: 5px;
+margin-top: 5px;
+
+  
+}
+
+.form-heading img {
+  width: 72px;
+}
+
+.form-buttons button {
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 500px;
+  height: 47px;
+  border: 1px solid #000000;
+  border-image: linear-gradient(132.37deg, #f71175 -1.41%, #be68d6 20.07%, #a68dff 29.56%, #9172ec 37.06%, #390099 50.88%, #804560 60.97%, #f7b801 70.65%, #f18701 83.69%, #f35b04 100%);
+  border-image-slice: 1;
+  background: linear-gradient(229.64deg, #f7b801 9.04%, #f18701 81.7%, #f56f23 163.25%);
+  color: #000000;
+  /* border-radius: 4px; */
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.form-buttons button.warning {
+  background-color: transparent;
+  color: #f18701;
+ 
+}
+
+ .edit-user-form .form-field {
+  width: 100%;
+  height: 47px;
+  background: #D9D9D9;
+  border: 1px solid #F18701;
+
+  margin-bottom: 20px;
+} 
+
+.edit-user-form .form-field label {
+  font-family: 'Metropolis';
+  font-size: 16px;
+  font-weight: 600;
+  color: #444444;
+  margin-right: 10px;
+}
+
+.edit-user-form .form-field input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  padding-left: 10px;
+  font-family: 'Metropolis';
+  font-size: 16px;
+  color: #444444;
+  
+}
+
+
+.edit-user-form .form-field input:focus {
+  outline: none;
+}
+
+.edit-user-form .form-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.permissions-checkboxes{
+  display: flex;
+
+}
+.permissions-checkboxes p{
+
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+
+}

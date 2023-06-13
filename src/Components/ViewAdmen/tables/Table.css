@@ -1,0 +1,62 @@
+.table {
+  margin-top: 70px;
+  width: 864px;
+  background-color: #faf8f8;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table th,
+.table td {
+  padding: 0.8rem;
+  padding-left: 0px;
+  width: 188px;
+}
+.table td {
+  display: flex;
+  justify-content: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.table .btn {
+  background-color: transparent;
+  border: transparent;
+  margin: 0px 12px;
+}
+
+.table .btn:hover {
+  padding-bottom: 20px;
+
+  cursor: pointer;
+}
+
+tr {
+  height: 58px;
+  width: 854px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  height: 58px;
+
+  margin: 5px;
+  border: 1px solid #282828;
+  border-radius: 8px;
+}
+
+.css-zow5z4-MuiGrid-root {
+  display: flex;
+  justify-content: center;
+
+}
+
+.password-mask {
+  color: #333; /* set the color of the password mask */
+  font-size: 10px; /* set the font size of the password mask */
+  margin-right: 2px; /* add some spacing between each password mask character */
+}

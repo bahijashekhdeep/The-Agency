@@ -1,0 +1,180 @@
+.creat-controls input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  height: 47px;
+  background: #d9d9d9;
+  border: 1px solid #f18701;
+  border-radius: 2px;
+}
+.creat-controls input[type="password"] {
+  box-sizing: border-box;
+  width: 100%;
+  height: 47px;
+  background: #d9d9d9;
+  border: 1px solid #f18701;
+  border-radius: 2px;
+}
+
+.imgLog img {
+  /* margin-top: 45px; */
+  width: 72px;
+}
+
+.AccountForm {
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* color: #444444; */
+}
+
+.login-container {
+  max-width: 500px;
+  background-color: white;
+  max-width: 432px;
+  border-radius: 7px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0px 5px 27px 1px rgba(0, 0, 0, 0.3);
+}
+
+.creat-form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  max-width: 532px;
+  height: 506px;
+  border: 2px solid #f18701;
+  border-radius: 8px;
+}
+
+.form-heading img {
+  width: 72px;
+}
+
+.creat-controls {
+  margin: 0px 0px;
+  width: 100%;
+}
+
+.form-field {
+  width: 100%;
+  height: 47px;
+  background: #d9d9d9;
+  border: 1px solid #f18701;
+  border-radius: 2px;
+  margin-top: 40px;
+}
+
+.change-auth {
+  margin: 20px 0;
+  color: #444444;
+}
+
+.sign-up-link:active,
+.sign-up-link:focus {
+  text-decoration: none;
+}
+
+#root > div > div > form > div.creat-controls > div:nth-child(1) {
+  margin-bottom: 30px;
+}
+
+.creat-controls .req {
+  width: 83px;
+  margin: 0px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 6px;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: #d21312;
+}
+
+#submit-button {
+  margin-top: 0px;
+  color: black;
+  width: 100%;
+  height: 47px;
+  /* margin-top: 30px; */
+  border: 2px solid #000000;
+  border-image: linear-gradient(
+    132.37deg,
+    #f71175 -1.41%,
+    #be68d6 20.07%,
+    #a68dff 29.56%,
+    #9172ec 37.06%,
+    #390099 50.88%,
+    #804560 60.97%,
+    #f7b801 70.65%,
+    #f18701 83.69%,
+    #f35b04 100%
+  );
+  border-image-slice: 1;
+  background: linear-gradient(
+    229.64deg,
+    #f7b801 9.04%,
+    #f18701 81.7%,
+    #f56f23 163.25%
+  );
+  color: #000000;
+  border-radius: 8px;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 0px;
+}
+
+#root > div > div > form > div.btnAlert > div {
+  background-color: transparent;
+  margin: -7px;
+  padding: 0px;
+  /* width: 100%; */
+}
+
+.permissions .checkbox-label {
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.permissions p {
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.css-dk24d0-MuiButtonBase-root-MuiCheckbox-root {
+  padding: 9px !important;
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+  border-radius: 50%;
+  color: #f18701 !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.creat-controls .css-1hdyuqk-MuiPaper-root-MuiAlert-root {
+  margin-top: 5px;
+  text-align: left;
+}
+
+.creat-controls{
+  display: contents;
+}

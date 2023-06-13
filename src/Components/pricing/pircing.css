@@ -1,0 +1,121 @@
+.name {
+  background-color: white;
+  background-image: linear-gradient(
+    180deg,
+    #f7b801 -24.8%,
+    #f7b801 -24.78%,
+    #f18701 40.72%,
+    #f35b04 104.88%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.header {
+  background-image: url("./Rectangle\ 3.png");
+  width: 99px;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header2 {
+  background-image: url("./Rectangle\ 2\ \(2\).png");
+  width: 246px;
+  background-size: cover;
+  padding-bottom: 20px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header::after {
+  content: "";
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #f18701;
+  display: flex;
+  justify-content: center;
+  margin-right: 14px;
+}
+
+.btne {
+  /* background: linear-gradient(180deg, #F7B801 0%, #F18701 47.4%, #F35B04 100%); */
+  /* border-radius: 8px; */
+  background-image: url("./Vector\ \(14\).png");
+  background-size: cover;
+
+  cursor: pointer;
+}
+
+/* .description-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+} */
+.description-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* .description-line::before {
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #000;
+  margin-right: 10px;
+} */
+.tier-price {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #f18701;
+}
+
+.css-1l8qytf-MuiTypography-root {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 0;
+  letter-spacing: 0em;
+  text-align: center;
+  display: block;
+}
+
+.maim .slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #f18701;
+}
+@media (min-width: 600px) {
+  #root
+    > div
+    > main.MuiContainer-root.MuiContainer-maxWidthSm.MuiContainer-disableGutters.maim.css-t2afja-MuiContainer-root {
+    max-width: 1200px;
+  }
+  .maim .slick-dots li button:before {
+    opacity: 0;
+    color: transparent;
+  }
+  .maim .slick-dots li.slick-active button:before {
+    opacity: 0.75;
+    color: transparent;
+  }
+}
+
+body
+  > div.MuiDialog-root.formrequest.MuiModal-root.css-zw3mfo-MuiModal-root-MuiDialog-root
+  > div.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container
+  > div
+  > div.MuiDialogContent-root.css-ypiqx9-MuiDialogContent-root {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
